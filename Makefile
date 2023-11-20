@@ -1,6 +1,6 @@
 CC = gcc
 CFLAGS = -Wall -Wextra -g
-TARGETS = semaphore pipes
+TARGETS = semaphore pipes fork thread
 
 all: $(TARGETS)
 
